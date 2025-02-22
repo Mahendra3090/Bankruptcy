@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the trained model
-model = joblib.load("bankruptcy_model.pkl")
+model = joblib.load("random_forest_model.pkl")
 
 # Streamlit UI
 st.set_page_config(page_title="Bankruptcy Prediction App", page_icon="⚖️", layout="wide")
